@@ -8,8 +8,9 @@ public class Main {
         
         // Please write your code here.
         if(checkRange(N) && checkRange(M)){
-            for(int i = N; i > 0; i /= M){
-                System.out.println(i);
+            while(N > 0){
+                System.out.println(N);
+                N /= M;
             }
         }
     }
