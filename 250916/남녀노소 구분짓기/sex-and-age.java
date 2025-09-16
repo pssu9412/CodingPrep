@@ -11,13 +11,13 @@ public class Main {
 
         if(checkRange(age)){
             if(gender == 1 ){
-                if(age >= 20){
+                if(age >= 19){
                     System.out.println("WOMAN");
                 }else{
                     System.out.println("GIRL");
                 }
             }else if(gender == 0){
-                if(age >=20){
+                if(age >=19){
                     System.out.println("MAN");
                 }else{
                     System.out.println("BOY");
